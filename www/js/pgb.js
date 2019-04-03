@@ -18,5 +18,12 @@ function deviceInfo() {
 			'Device Version : '  + device.version  + '\n';
 
 	navigator.notification.alert(info);
-	
 }
+
+function businessCard() {
+	info = 'Hi, this is my presonal business card ;-) + '\n' +
+		'======' + '\n' +
+		'Name and surname	: Karolina Dylewska ' + '\n';
+		navigator.notification.alert(info);
+}
+		
