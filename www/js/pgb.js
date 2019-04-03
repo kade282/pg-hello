@@ -21,7 +21,7 @@ function deviceInfo() {
 }
 
 function businessCard() {
-	info = 'Hi, this is my presonal business card ;-) + 
+	info = 'Hi, this is my presonal business card ;-)' + 
 		'======' + '\n' +
 		'Name and surname	: Karolina Dylewska ' + '\n';
 		navigator.notification.alert(info);
